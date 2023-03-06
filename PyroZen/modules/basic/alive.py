@@ -54,7 +54,7 @@ async def alive(client: Client, message: Message):
     ping = (datetime.now() - start).microseconds / 1000
     uptime = await get_readable_time((time.time() - StartTime))
     await message.reply(
-        f"**ShinUbot**\n"
+        f"**ZenUbot**\n"
         f"   <b>Status : {status}</b>\n"
         f"     <b>expires_on:<b>\n"
         f"     <b>Dc_id: <code>{client.me.dc_id}</b>\n"
